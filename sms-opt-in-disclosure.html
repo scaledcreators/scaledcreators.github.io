@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SMS Messaging Consent — SC Studio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Syne:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --text: #1a1a2e;
+    --text-2: #555570;
+    --border: #e2e2ec;
+    --accent: #6c63ff;
+    --surface: #f7f7fc;
+    --white: #ffffff;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--surface); color: var(--text); font-family: 'DM Sans', sans-serif; min-height: 100vh; padding: 40px 20px 80px; }
+  .doc { max-width: 680px; margin: 0 auto; background: var(--white); border: 1px solid var(--border); border-radius: 12px; overflow: hidden; }
+  .doc-header { padding: 36px 48px 28px; border-bottom: 1px solid var(--border); }
+  .brand { display: flex; align-items: center; gap: 10px; margin-bottom: 28px; }
+  .brand-mark { width: 32px; height: 32px; background: var(--accent); border-radius: 8px; display: flex; align-items: center; justify-content: center; }
+  .brand-mark svg { width: 16px; height: 16px; fill: white; }
+  .brand-name { font-family: 'Syne', sans-serif; font-size: 15px; font-weight: 700; color: var(--text); }
+  .doc-title { font-family: 'Syne', sans-serif; font-size: 22px; font-weight: 700; color: var(--text); margin-bottom: 6px; }
+  .doc-sub { font-size: 13px; color: var(--text-2); }
+  .doc-body { padding: 36px 48px; display: flex; flex-direction: column; gap: 28px; }
+  .section { }
+  .section-title { font-size: 11px; font-weight: 600; color: var(--accent); letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 10px; }
+  p { font-size: 14px; line-height: 1.7; color: var(--text-2); }
+  p strong { color: var(--text); font-weight: 600; }
+  .highlight-box { background: var(--surface); border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 14px 18px; }
+  .highlight-box p { font-size: 13px; }
+  .keyword-row { display: flex; align-items: flex-start; gap: 14px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+  .keyword-row:last-child { border-bottom: none; }
+  .keyword { display: inline-block; min-width: 60px; padding: 4px 10px; background: #f0effe; color: var(--accent); border-radius: 6px; font-size: 12px; font-weight: 700; font-family: 'DM Sans', monospace; letter-spacing: 0.04em; flex-shrink: 0; text-align: center; }
+  .keyword-desc { font-size: 13px; color: var(--text-2); line-height: 1.5; padding-top: 3px; }
+  .divider { height: 1px; background: var(--border); }
+  .doc-footer { padding: 20px 48px; background: var(--surface); border-top: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; flex-wrap: gap; gap: 10px; }
+  .footer-text { font-size: 12px; color: var(--text-2); }
+  .updated { font-size: 11px; color: #aaa; }
+</style>
+</head>
+<body>
+
+<div class="doc">
+  <div class="doc-header">
+    <div class="brand">
+      <div class="brand-mark">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+      </div>
+      <span class="brand-name">SC Studio</span>
+    </div>
+    <div class="doc-title">SMS Messaging Consent</div>
+    <div class="doc-sub">Please read before completing your membership signup</div>
+  </div>
+
+  <div class="doc-body">
+
+    <div class="section">
+      <div class="section-title">Who Is Texting You</div>
+      <p>By providing your phone number and checking the consent box during checkout, you agree to receive automated SMS text messages from <strong>Scaled Creators LLC</strong>, operating as <strong>SC Studio</strong>, on behalf of the creator whose Studio you are joining. Messages will be sent from a dedicated 10-digit phone number associated with your creator's Studio.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">What Types of Messages You Will Receive</div>
+      <p>After you opt in, you may receive SMS messages related to your membership, including:</p>
+      <div style="margin-top: 12px; display: flex; flex-direction: column; gap: 6px;">
+        <div class="highlight-box"><p>Trial reminders — notifications before your free trial ends, including what you will lose access to if you do not subscribe</p></div>
+        <div class="highlight-box"><p>Booking confirmations and reminders — confirmation when you book a 1:1 coaching session or register for a live Q&amp;A, and a reminder 30 minutes before it starts</p></div>
+        <div class="highlight-box"><p>Session cancellations or reschedules — if your creator cancels or reschedules a booked session</p></div>
+        <div class="highlight-box"><p>New content alerts — optional notifications when your creator publishes a new course or live session you may be interested in</p></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Message Frequency</div>
+      <p>Message frequency varies based on your activity. During a free trial, you will receive no more than <strong>3 messages over 7 days</strong>. After subscribing, you will receive messages only when triggered by a relevant account event, such as a booking or a new session announcement. We do not send promotional blasts or unsolicited marketing messages.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section">
+      <div class="section-title">Costs</div>
+      <p><strong>Message and data rates may apply.</strong> SC Studio does not charge you for SMS messages, but your mobile carrier may charge standard messaging rates depending on your plan. Contact your carrier if you are unsure whether SMS messages incur a charge on your plan.</p>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section">
+      <div class="section-title">How to Opt Out or Get Help</div>
+      <p>You can stop receiving messages at any time by replying to any SMS from us. The following keywords are always available:</p>
+      <div style="margin-top: 12px;">
+        <div class="keyword-row">
+          <span class="keyword">STOP</span>
+          <span class="keyword-desc">Unsubscribes you immediately. You will receive one final confirmation message and no further SMS messages will be sent to your number.</span>
+        </div>
+        <div class="keyword-row">
+          <span class="keyword">HELP</span>
+          <span class="keyword-desc">Returns support contact information so you can reach SC Studio directly if you have a question about your messages or membership.</span>
+        </div>
+        <div class="keyword-row">
+          <span class="keyword">START</span>
+          <span class="keyword-desc">Re-subscribes you if you have previously opted out and would like to receive messages again.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="section">
+      <div class="section-title">Your Consent</div>
+      <p>Consent to receive SMS messages is <strong>not required</strong> as a condition of purchasing a membership or accessing any content on SC Studio. You may still complete your checkout and use the platform if you do not wish to receive SMS messages — simply leave the consent checkbox unchecked at checkout.</p>
+      <p style="margin-top: 12px;">By checking the box labeled <em>"I agree to receive SMS updates from [Creator] Studio"</em> during checkout, you confirm that you have read and understood this disclosure and that you consent to receive the message types described above at the phone number you provided.</p>
+    </div>
+
+    <div class="section">
+      <div class="section-title">Contact</div>
+      <p>For questions about this policy or to request support, email <strong>support@scaledcreators.com</strong> or reply <strong>HELP</strong> to any message you receive from us.</p>
+    </div>
+
+  </div>
+
+  <div class="doc-footer">
+    <span class="footer-text">Scaled Creators LLC &nbsp;·&nbsp; SC Studio &nbsp;·&nbsp; San Antonio, TX</span>
+    <span class="updated">Last updated April 2026</span>
+  </div>
+</div>
+
+</body>
+</html>
